@@ -1,0 +1,27 @@
+.header {
+  width: 100%;
+  padding-top: 14px;
+  padding-bottom: 15px;
+  background-color: #000000;
+  .header_items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a {
+      text-decoration: none;
+      color: #969696;
+    }
+    .header_content {
+      display: flex;
+      gap: 15px;
+      .header_text {
+        color: #969696;
+      }
+    }
+    .header_item {
+      i {
+        color: #969696;
+      }
+    }
+  }
+}

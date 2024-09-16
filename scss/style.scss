@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+//   font-family: "PT Sans", sans-serif;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+.container {
+  max-width: 1050px;
+  padding: 0;
+}
+
+// Blocks
+@import "./blocks/header";
+@import "./blocks/now";
+@import "./blocks/info";
+
+// Base
+@import "./base/media.scss";
